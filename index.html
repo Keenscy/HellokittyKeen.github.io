@@ -8,7 +8,18 @@
     <h1>My Hello Kitty Drawing</h1>
     <canvas id="kittyCanvas" width="400" height="400"></canvas>
     <script>
-        // Copia aquí el código Python modificado para que funcione con p5.js
+        function setup() {
+            createCanvas(400, 400); // Crea un lienzo de 400x400 píxeles
+            background(255); // Establece el color de fondo en blanco
+
+            // Texto "hecho por Keen, para mi gringuita guapa <3"
+            textSize(12);
+            textAlign(CENTER);
+            text("hecho por Keen, para mi gringuita guapa <3", width / 2, height - 20);
+
+            // Dibuja el dibujo de Hello Kitty
+            // Tu código de dibujo de Hello Kitty aquí
+        }
     </script>
 </body>
 </html>
